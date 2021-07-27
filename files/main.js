@@ -15,7 +15,7 @@ function createWindow() {
         }
     })
 
-    win.loadFile('index.html')
+    win.loadFile('./files/index.html')
 
     
     /*  URL dinâmica 

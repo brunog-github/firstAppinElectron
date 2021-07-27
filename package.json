@@ -2,7 +2,7 @@
   "name": "firstappinelectron",
   "version": "1.0.0",
   "description": "primeiro app em electron",
-  "main": "main.js",
+  "main": "./files/main.js",
   "scripts": {
     "start": "electron ."
   },
