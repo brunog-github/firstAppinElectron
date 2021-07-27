@@ -1,0 +1,15 @@
+{
+  "name": "firstappinelectron",
+  "version": "1.0.0",
+  "description": "primeiro app em electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.1.7"
+  }
+}
