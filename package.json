@@ -4,12 +4,26 @@
   "description": "primeiro app em electron",
   "main": "./files/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist:linux": "electron-builder"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno <bruno.g.p897@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^13.1.7"
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7"
+  },
+  "build": {
+    "appId": "com.bruno.firstappinelectron",
+    "linux": {
+      "target": [
+        "deb",
+        "snap",
+        "rpm"
+      ],
+      "category": "Utility"
+    }
   }
 }
